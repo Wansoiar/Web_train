@@ -1,0 +1,31 @@
+body {
+    font: 16px "Comic Sans MS", cursive;
+    background: url("Blue-rule.png");
+}
+strong {
+    color: red;
+    font-size: 200%;
+}
+.carrot {color: orange;}
+.spinach {color: green;}
+#first {font-style: italic;}
+p {color: blue;}
+p:hover::before{
+    content: url("yellow-pin.png");
+}
+.recolor{
+    width: 200px;
+    height: 200px;
+    background:
+
+        radial-gradient(circle at 50% 10%,rgba(255,0,0,.5),rgba(255,0,0,0) 70.71%),
+        radial-gradient(circle at 6% 70%,rgba(0,255,0,.5),rgba(0,255,0,0) 70.71%),
+        radial-gradient(circle at 90% 12%,rgba(0,0,255,.5),rgba(0,0,255,0) 70.71%) beige;
+    border-radius: 50%;
+}
+ul{
+    list-style-image: url("yellow-pin.png");
+    border: 10px solid cornflowerblue;
+    width: 100px;
+    text-align: center;
+}
