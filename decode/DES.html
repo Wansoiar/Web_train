@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>unapp Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+
+	<![endif]-->
+    <style type="text/css">
+        @media (min-width: 0px) {
+
+            .tab-span {
+
+                font-size: 10px;
+
+            }
+        }
+        @media (min-width: 768px) {
+
+            .tab-span {
+
+                font-size: 20px;
+
+            }
+        }
+		.tip{
+			margin: 8px;
+		}
+        .textin{
+            border:2px solid #ddd;
+			color:#999;
+            display:block;
+            margin:0 0 .5em;
+            padding:1em 1.25em;
+            width:100%;
+            -webkit-transition:border-color 300ms,color 300ms;
+            transition:border-color 300ms,color 300ms;
+            -webkit-appearance:none;
+        }
+        .textin:focus{
+            outline: none;
+            border: 2px solid gray;
+            -webkit-box-shadow: 0 0 8px gray;
+            -moz-box-shadow: 0 0 7px gray;
+            box-shadow: 0 0 7px gray;
+        }
+        .buttonaction{
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+			border: 2px solid #777777;
+            border-radius: 50px;
+            background-color: #f3f3f3;
+			padding-left: 8px;
+			padding-right: 8px;
+        }
+        .buttonaction:hover{
+            outline: none;
+            border: 2px solid #666666;
+            -webkit-box-shadow: 0 0 8px gray;
+            -moz-box-shadow: 0 0 7px gray;
+            box-shadow: 0 0 7px gray;
+        }
+		.buttonaction:active {
+			box-shadow: 0 5px #666;
+			transform: translateY(4px);
+		}
+
+		.but{
+			margin-top: 15px;
+		}
+		.buttonaction span {
+			cursor: pointer;
+			display: inline-block;
+			position: relative;
+			transition: 0.5s;
+		}
+
+		.buttonaction span:after {
+			content: '\2764';
+			position: absolute;
+			opacity: 0;
+			top: 0;
+			right: -20px;
+			transition: 0.5s;
+		}
+
+		.buttonaction:hover span {
+			padding-right: 25px;
+		}
+
+		.buttonaction:hover span:after {
+			opacity: 1;
+			right: 0;
+		}
+		#tit{
+			font-weight: 700;
+			color: #303030;
+			padding-bottom: 10px;
+			border-bottom:5px solid rgba(26,26,26,.8);
+
+		}
+		#intro{
+			color: #3f3f3f;
+		}
+		.imgs{
+			padding: 20px;
+			text-align: center;
+		}
+		#cut{
+			width: 500px;
+			display: inline-block;
+			box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+    </style>
+	</head>
+	<body>
+		
+	<div class="colorlib-loader"></div>
+
+	<div id="page">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top-menu" style="background-color: rgba(43,43,43,.8); height: 68px;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div id="colorlib-logo"><a href="index.html"><span class="glyphicon glyphicon-fire" ></span> Cryptography</a></div>
+						</div>
+						<div class="col-md-9 text-right menu-1">
+							<ul id="find">
+								<li class="index"><a href="index.html">Home</a></li>
+								<li class="has-dropdown index active">
+									<a href="work.html">Works</a>
+									<ul class="dropdown" id="drop">
+										<li><a href="work-grid.html">仿射加密</a></li>
+										<li><a href="work-grid-without-text.html">RC4</a></li>
+										<li><a href="work-grid-without-text.html">LFSR+J-K</a></li>
+										<li><a href="work-grid-without-text.html">DES</a></li>
+										<li><a href="work-grid-without-text.html">RSA</a></li>
+										<li><a href="work-grid-without-text.html">D-H认证</a></li>
+									</ul>
+								</li>
+								<li class="index"><a href="services.html">Services</a></li>
+								<li class="index"><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<section id="home" class="video-hero" style="height: 500px; background-color: black" data-section="home">
+		<div class="overlay"></div>
+			<div class="display-t display-t2 text-center">
+				<div class="display-tc display-tc2" style="background-color: rgba(48,48,48,8)">
+					<div class="container">
+						<div class="col-md-12 col-md-offset-0">
+							<div class="animate-box">
+								<h2>Data Encryption Standard</h2>
+								<p class="breadcrumbs"><span><a href="index.html">Home</a></span><span>DES</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="colorlib-services">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6 col-xs-offset-3">
+						<div class="imgs">
+							<img src="cat.jpg" id="cut">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="colorlib-services" style="padding-bottom: 3em;">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4" >
+						<label for="input"><span class="glyphicon glyphicon-list-alt tip"></span><span>文本输入：</span></label>
+                		<textarea name="input" id="input" class="form-control textin" rows="10" placeholder="请在此输入明文/密文" ></textarea><br>
+              		</div>
+		            <div class="col-xs-4" >
+		                <div class="row">
+		                    <div class="col-xs-12  starter">
+								<label for="key"><span class="glyphicon glyphicon-star tip"></span><span>密钥Key：</span></label>
+		                        <textarea name="key" id="key" class="form-control textin" rows="3" placeholder="请在此输入密钥" ></textarea>
+
+		                        <div class="container col-xs-6 col-xs-offset-3 but">
+		                            <div class="btn-group btn-group-justified">
+		                                <div class="btn-group">
+		                                    <button class="btn btn-inverse btn-lg buttonaction" onclick="encryption()" ><span class="tab-span">加密<span class="glyphicon glyphicon-chevron-right"></span></span></button>
+		                                </div>
+		                            </div>
+		                        </div>
+
+		                        <div class="container col-xs-6 col-xs-offset-3 div_ starter but">
+		                            <div class="btn-group btn-group-justified">
+		                                <div class="btn-group">
+		                                    <button class="btn btn-inverse btn-lg buttonaction"  onclick="decryption()" ><span class="tab-span">解密<span class="glyphicon glyphicon-chevron-right"></span></span></button>
+		                                </div>
+		                            </div>
+		                        </div>
+
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="col-xs-4">
+						<label for="output"><span class="glyphicon glyphicon-duplicate tip"></span><span>结果输出：</span></label>
+                		<textarea name="output" id="output " class="form-control textin" rows="10"  placeholder="加密/解密结果显示" ></textarea>
+            		</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div>
+				<h2 id="tit">DES算法介绍：</h2>
+				<div id="intro">
+				<p>在线DES加密，DES解密，可以输入密钥后进行加密和解密，支持可逆加密解密。<br>
+					[DES加密时可以填写密钥，但解密时一定要用相同的密钥，否则输出为空]<br>
+					DES全称为Data Encryption Standard，即数据加密标准，是一种使用密钥加密的块算法，1977年被美国联邦政府的国家标准局确定为联邦资料处理标准（FIPS），并授权在非密级政府通信中使用，随后该算法在国际上广泛流传开来。需要注意的是，在某些文献中，作为算法的DES称为数据加密算法（Data Encryption Algorithm,DEA），已与作为标准的DES区分开来。<br>
+				</p>
+				<table class="table">
+					<tr>
+						<th>DES 全称</th>
+						<td>Data Encryption Standard</td>
+						<th>中文名</th>
+						<td>数据加密标准</td>
+					</tr>
+					<tr>
+						<th>体 系</th>
+						<td>对称加密算法</td>
+						<th>规 则</th>
+						<td>混淆(confusion)和扩散(diffusion)</td>
+					</tr>
+				</table>
+				</div>
+			</div>
+		</div>
+
+		<footer id="colorlib-footer" style="margin-top: 80px;">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-4 colorlib-widget">
+						<h4 style="font-size: 20px"><span class="glyphicon glyphicon-fire" ></span> Cryptography</h4>
+					</div>
+					<div class="col-md-8 colorlib-widget">
+						<p>Copyright © 1996-2010 All Rights Reserved by happy group.
+							Address: Lushan Road (S), Yuelu District,
+							Changsha, Hunan Province;
+							Zip Code: 410082</p>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- YTPlayer -->
+	<script src="js/jquery.mb.YTPlayer.min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
