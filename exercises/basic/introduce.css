@@ -14,5 +14,5 @@ p{
     clear: right;
 }
 p:hover::after{
-    content: url("Blue-rule.png");
+    content: url("../picture/Blue-rule.png");
 }

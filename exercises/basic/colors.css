@@ -1,0 +1,38 @@
+.color{
+    width: 400px;
+    margin: 0 auto;
+}
+.butt{
+    height: 38px;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid;
+    padding: 8px 10px;
+    cursor: pointer;
+    maigin: 20px 20px;
+    font-size: large;
+}
+.butt:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#steal{
+    background: indianred;
+    border: indianred;
+}
+#yellow{
+    background: yellow;
+    border: yellow;
+}
+#orange{
+    background: orange;
+    border: orange;
+    color: #fff;
+}
+#red{
+    background: red;
+    border: red;
+}
+#green{
+    background: green;
+    border: green;
+}

@@ -1,6 +1,6 @@
 body {
     font: 16px "Comic Sans MS", cursive;
-    background: url("Blue-rule.png");
+    background: url("../picture/Blue-rule.png");
 }
 strong {
     color: red;
@@ -11,7 +11,7 @@ strong {
 #first {font-style: italic;}
 p {color: blue;}
 p:hover::before{
-    content: url("yellow-pin.png");
+    content: url("../picture/Yellow-pin.png");
 }
 .recolor{
     width: 200px;
@@ -24,7 +24,7 @@ p:hover::before{
     border-radius: 50%;
 }
 ul{
-    list-style-image: url("yellow-pin.png");
+    list-style-image: url("../picture/Yellow-pin.png");
     border: 10px solid cornflowerblue;
     width: 100px;
     text-align: center;
