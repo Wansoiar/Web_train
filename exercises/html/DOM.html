@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping list</title>
+</head>
+<body>
+<h1>What to buy</h1>
+<p title="a gentle reminder">Don't forget to buy this stuff.</p>
+<p>This just a text.</p>
+<ul id="purchases">
+    <li>A tin of beans.</li>
+    <li class="safe">Cheese.</li>
+    <li class="safe important">Milk.</li>
+</ul>
+<ul id="purchases2">
+    <li>A tin of beans.</li>
+    <li>A tin of beans.</li>
+    <li class="safe">Cheese.</li>
+    <li class="safe important">Milk.</li>
+</ul>
+<script>
+    let items = document.getElementsByTagName('p');
+    for(let i=0; i < items.length; i++ ){
+        let title_text = items[i].getAttribute('title');
+        if( title_text ) alert(title_text);
+    }
+
+</script>
+</body>
+</html>
